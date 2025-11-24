@@ -7,12 +7,16 @@ import edu.touro.mcon264.apps.collections.CollectionInterface;
  * @param <T>
  */
 public interface AdvanceSetInterface <T> extends CollectionInterface<T> {
-/*
- Starter code the exercise 6
- Desig signatures for the following methods:
-    union()
-    intersection()
-    difference()
- */
+    /*
+     Starter code the exercise 6
 
+     Design signatures for the following methods:
+        union()
+        intersection()
+        difference()
+     */
+
+   T union(T target);
+   T intersection(T target);
+   T difference(T target);
 }
